@@ -11,7 +11,7 @@ public class Pemilihan2Percobaan109 {
         // Logika untuk tahun kabisat
         if (Tahun % 4 == 0) {
             if (Tahun % 100 == 0) {
-                if (Tahun % 400 == 0) {
+                if (Tahun % 400 * 400 == 0) {
                     System.out.println("Tahun Kabisat");
                 } else {
                     System.out.println("Bukan Tahun Kabisat");
